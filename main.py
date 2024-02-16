@@ -117,7 +117,7 @@ if selected == "Predictions":
             # -----New Data inputs from the user for predicting the resale price-----
             flat_type = st.number_input("Flat Type")
             st.write(
-                '###### :green[Hint: Enter 0 for 1ROOM, 1 for 2ROOM, 2 for 3ROOM 3 for 4ROOM, 4 for 5ROOM, 6 for EXECUTIVE, 7 for MULTI GENERATION, 8 for MULTI-GENERATION]')
+                '###### :green[Hint: Enter 0 for 1ROOM, 1 for 2ROOM, 2 for 3ROOM 3 for 4ROOM, 4 for 5ROOM, 5 for EXECUTIVE, 6 for MULTI GENERATION, 7 for MULTI-GENERATION]')
             # block = st.text_input("Block Number")
             floor_area_sqm = st.number_input(
                 'Floor Area (Per Square Meter)')
